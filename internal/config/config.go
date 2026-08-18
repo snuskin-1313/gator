@@ -52,6 +52,5 @@ func getPath() string {
 		return ""
 	}
 	targetdir := fmt.Sprintf("%s/%s", homedir, configname)
-	fmt.Printf("targetdir:%s\n", targetdir)
 	return targetdir
 }
